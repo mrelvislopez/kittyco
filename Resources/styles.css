@@ -1,0 +1,319 @@
+/* Universal */
+html{
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    border: 20px solid #101219;
+}
+
+h1{
+    font-family: 'Avenir', sans-serif;
+    font-weight: 600;
+    font-size: 4.5rem;
+    line-height: 1.1em;
+    letter-spacing: -2px;
+    color: #101219;
+}
+
+h2{
+    font-family: 'Avenir', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.1em;
+    letter-spacing: -2px;
+    color: #101219;
+}
+
+h3{
+    font-family: 'Avenir', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #101219;
+}
+
+p{
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:#101219;
+}
+
+a{
+    font-family: 'Avenir', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:active{
+    color: #f8b3ff;
+
+}
+
+a:visited{
+    color: #101219;
+}
+
+
+/* header */
+header{
+    display: flex;
+    padding: 40px 0px;
+    align-items: center;
+    margin: 0 100px;
+}
+
+#logo{
+    width: 20%;
+}
+
+#nav{
+    text-align: right;
+    width: 80%;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .5px;
+    align-content: center;
+}
+
+#nav a{
+    margin-left: 25px;
+    color: #101219;
+}
+
+.nava:hover{
+    opacity: .5;
+}
+
+#nav img{
+    margin-bottom: -5px;
+}
+
+#nav img:hover{
+    opacity: .5;
+}
+
+#contactbtn{
+    background-color: #101219;
+    color: white!important;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#contactbtn:hover{
+    background-color: #f8b3ff;
+    color: black!important;
+}
+
+/* Hero Section */
+.container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 28em;
+    gap: 120px;
+    padding-bottom: 20px;
+    padding: 0 100px;
+}
+
+#content{
+    width: 55%;
+}
+
+#content p{
+    margin-top: -10px;
+}
+#content h1{
+    margin-top: 30px;
+}
+
+#content .btn:hover{
+    background-color: #101219;
+    color: white;
+}
+
+.btn{
+    background-color: #f8b3ff;
+    color: #101219;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#illustration{
+    justify-content: end;
+    width: 45%;
+}
+
+/* Services */
+
+.two {
+    background-image: url("./images/kittyco-bg-09.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 48em;
+    background-position: top;
+    padding: 0 100px;
+}
+
+#services, #item2{
+    width: 50%;
+}
+
+#services h3{
+    color: white;
+}
+
+#services h3::before{
+    content: "•";
+    color: #f8b3ff;
+    font-weight: bolder;
+    line-height: 0em;
+    margin-top: 0px;
+}
+
+.serviceitem{
+    background-color: #101219;
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 25px;
+    transition: all .2s ease-in-out;
+}
+
+.serviceitem:hover{
+    transform: scale(1.1);
+}
+
+.serviceitem p{
+    color: #99AFBF;
+}
+
+#dots{
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+#item2 h2{
+    margin-top: 0;
+}
+
+/* Team */
+#ball{
+    margin-bottom: -11em;
+    margin-left: 11em;
+    width: 17%;
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+#team{
+    background-color: #101219;
+    height: auto;
+    padding: 30px 75px;
+    border-radius: 25px;
+    margin-top: 4rem;
+    margin-left: 5em;
+    margin-right: 5em;
+    justify-items: center;
+}
+
+#teamtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#teamtitle h2{
+    color: white;
+    line-height: 1em;
+}
+
+#teamtitle p{
+    color: #99AFBF;
+    margin-top: 0px;
+    padding-bottom: 40px;
+}
+
+#teamcontainer{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 20px 0;
+    gap: 50px;
+}
+
+.member{
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.member h3{
+    color: white;
+}
+
+.member p{
+    color: #99AFBF;
+    margin-top: -7px;
+}
+
+/* Contact */
+#contact{
+    display: flex;
+    margin-top: 10em;
+    background-color: #101219;  
+    align-items: center; 
+    padding: 50px 100px;
+    height: 20em;
+    gap: 150px;
+}
+
+#contactleft{
+    width: 50%;
+}
+
+#contactleft p{
+    color: slategrey;
+}
+
+#footerlogo{
+    width: 50%;
+}
+
+#contactright {
+    text-align: left;
+}
+
+#contactright p{
+    color: slategrey;
+}
+
+#contactright h2{
+    margin-top: 0;
+    color: white;
+}
+
+#contactright .btn:hover{
+    background-color: white;
+    color: #101219;
+}
+
+.social{
+    margin-right: 10px;
+}
+
+.social:hover{
+    opacity: .5;
+}
